@@ -1,0 +1,112 @@
+.frame{
+  width: 100%;
+  height: 580px;
+  border: 2px solid red;
+  overflow: hidden;
+}
+
+.image_files{
+  width: 400%;
+  height: 100%;
+  animation: images 6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes images {
+  0%{margin-left: 0px;}
+
+  30%{margin-left: -100%;}
+
+  70%{margin-left: -200%;}
+
+  100%{margin-left: -300%}
+}
+.image{
+  width: 25%;
+  height: 100%;
+  float: left;
+  font-size: 160px;
+  text-align: center;
+  padding-top: 1px;
+}
+  .image:nth-child(1){
+    background-image: url("1.jpg");
+    background-size: 100% 100%;
+
+  }
+  .image:nth-child(2){
+    background-image: url("2.jpg");
+    background-size: 100% 100%;
+  }
+  .image:nth-child(3){
+    background-image: url("3.jpg");
+    background-size: 100% 100%;
+  }
+  .image:nth-child(4){
+    background-image: url("4.jpg");
+    background-size: 100% 100%;
+  }
+
+
+
+/*apply to the group of divs to move*/
+/*groups*/
+/*.frame{
+  width: 100%;
+  height: 630px;
+  border: 2px solid red;
+}
+.slide_group{
+  width: 400%;
+  height: 100%;
+  animation: slide 6s forwards;
+  /*animation-duration: 6s;*/
+/*}
+@keyframes slide {
+  0%{margin-left:0px;}/*0 percent also works margin left reduces space on right go opposite with right*/
+
+  /*33%{margin-left: -100%; }
+
+  66%{margin-left: -200%;}
+
+  100%{margin-left: -300%}
+}
+
+/*refers to upper level*/
+/*.slide {
+  width: 25%;
+  height: 100%;
+  float: left;
+  font-size: 160px;
+  text-align: center;
+  /*padding-top: 2%;*/
+  /*padding-bottom: 1px;
+
+}
+
+
+  .slide:nth-child(1){
+    background-color: cyan;
+  }
+  .slide:nth-child(2){
+    background-color: violet;
+  }
+  .slide:nth-child(3){
+    background-color: lightgreen;
+  }
+  .slide:nth-child(4){
+    background-color: peachpuff;
+  }
+/*slides- only 1 float is needed for all slides*/
+/* original code for color
+.slide1{
+  background-color: lightpink;}
+
+.slide2{
+  background-color: lightgreen;}
+
+.slide3{
+  background-color: purple;}
+
+.slide4{
+  background-color: blue;}*/

@@ -1,0 +1,69 @@
+body{
+  height: 1000px;
+
+  background:linear-gradient(to top right, #992ed4, #e6db9d);
+}
+
+
+.introduction_row{
+
+}
+
+.number_intro{
+  float: left;
+  font-size: 140%;
+  border: 3px solid cyan;
+}
+.number_guess{
+  float: center;
+  margin-left: 40%;
+  border:4px solid red;
+}
+.play_button{
+  border: 4px solid orange;
+  text-align: center;
+
+  margin-top: 5%;
+}
+.play{
+  font-size: 100%;
+  padding: 3%;
+  background-color: cyan;
+}
+.play:hover{
+  opacity: 50%;
+}
+.interactive_row{
+
+}
+.score_attempts{
+  margin-left: 10%;
+}
+.mystery_number{
+  border: 5px solid red;
+  text-align: center;
+  font-size: 200%;
+  color: white;
+}
+.mystery_box{
+  box-shadow: 5px, 5px black;
+  height: 28%;
+  width: 15%;
+  background-color: white;
+  font-size: 200%;
+  margin-left: 42.5%;
+  text-align: center;
+  font-size: 400%;
+  position: absolute;
+}
+.user_input{
+  float: right;
+}
+.number_check{
+  float: right;
+}
+.check_button{
+  border: 3px solid blue;
+  padding: 10%;
+  margin-right: 20%;
+}

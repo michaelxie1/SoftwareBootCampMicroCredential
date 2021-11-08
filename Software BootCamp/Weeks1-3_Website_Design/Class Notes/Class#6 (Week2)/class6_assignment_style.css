@@ -1,0 +1,160 @@
+.website{
+
+}
+
+/*Window1*/
+.window_1{
+  position: static;
+  height: 30%;
+  width: 20%;
+  border: 3px solid red;
+  text-align: center;
+  padding: 2%;
+  float: left;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+.click1:hover{
+  background: black;
+  color: white;
+  padding: 4px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.modal_window_1{
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(30, 86, 124, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  text-align: center;
+}
+.modal_window_1:target{
+  opacity: 1;
+  pointer-events: all;
+}
+.msgblock1{
+  position: relative;
+  width: 65%;
+  height: 75%;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 5%;
+  background-color: orange;
+}
+.msgblock1 img{
+  height: 45%;
+  width: 45%;
+  text-align: center;
+  margin-top: 5%;
+  margin-right: 15%
+}
+
+
+/*Window2*/
+.window_2{
+  position: static;
+  height: 30%;
+  width: 20%;
+  border: 3px solid red;
+  text-align: center;
+  padding: 2%;
+  float: left;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+.click2:hover{
+  background: black;
+  color: white;
+  padding: 4px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.modal_window_2{
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(30, 86, 124, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  text-align: center;
+}
+.modal_window_2:target{
+  opacity: 1;
+  pointer-events: all;
+}
+.msgblock2{
+  position: relative;
+  width: 65%;
+  height: 75%;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 5%;
+  background-color: orange;
+}
+.msgblock2 img{
+  height: 45%;
+  width: 45%;
+  text-align: center;
+  margin-top: 5%;
+  margin-right: 15%
+}
+
+
+/*Window3*/
+.window_3{
+  position: static;
+  height: 30%;
+  width: 20%;
+  border: 3px solid red;
+  text-align: center;
+  padding: 2%;
+  float: left;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+.click3:hover{
+  background: black;
+  color: white;
+  padding: 4px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.modal_window_3{
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(30, 86, 124, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  text-align: center;
+}
+.modal_window_3:target{
+  opacity: 1;
+  pointer-events: all;
+}
+.msgblock3{
+  position: relative;
+  width: 65%;
+  height: 75%;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 5%;
+  background-color: orange;
+}
+
+.msgblock3{
+  height: 45%;
+  width: 45%;
+  text-align: center;
+  margin-top: 5%;
+  margin-right: 15%
+}

@@ -1,0 +1,12 @@
+.main_window{
+
+}
+/*makes the link a button*/
+.click{
+  background: orange;
+  color: white;
+  padding: 4px;
+  border-radius: 8px;
+  text-decoration: none;
+
+}

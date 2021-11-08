@@ -1,0 +1,57 @@
+CREATE TABLE owners (
+
+	id SERIAL PRIMARY KEY,
+	first_name VARCHAR(30),
+	last_name VARCHAR(30),
+	city VARCHAR(30),
+	state CHAR(2)
+);
+
+CREATE TABLE pets (
+
+	id SERIAL PRIMARY KEY, 
+	species VARCHAR(30),
+	full_name VARCHAR(30),
+	age INT, 
+	owner_id INT REFERENCES owners(id)
+);
+
+SELECT * FROM pets;
+ALTER TABLE owners
+ADD COLUMN email VARCHAR(50) UNIQUE;
+
+SELECT * FROM owners;
+
+ALTER TABLE owners
+ALTER COLUMN last_name TYPE VARCHAR(50);
+
+SELECT * FROM owners;
+
+
+
+--class code 1/27
+CREATE TABLE examples(
+	example_id SERIAL PRIMARY KEY,
+	first_name VARCHAR(30),
+	last_name VARCHAR(30)
+);
+--modify table ex.
+ALTER TABLE examples
+ADD COLUMN
+ADD COLUMN email VARCHAR(50) UNIQUE,
+ADD COLUMN age INT;
+SELECT * FROM examples;
+
+
+ALTER TABLE examples
+ALTER COLUMN last_name TYPE VARCHAR(80),
+ALTER COLUMN email TYPE VARCHAR(100);
+
+
+ALTER TABLE examples
+
+DROP COLUMN age;
+SELECT * FROM examples;
+--DELETE FROM tablename (assumes data is inserted)
+--	where example_id = '2' 
+

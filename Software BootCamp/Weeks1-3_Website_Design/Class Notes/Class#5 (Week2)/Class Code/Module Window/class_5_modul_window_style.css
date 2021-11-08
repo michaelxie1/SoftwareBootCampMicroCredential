@@ -1,0 +1,79 @@
+.window_1{
+
+}
+/*makes the link a button*/
+.click{
+  background: orange;
+  color: white;
+  padding: 4px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.modal_window{
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: rgba(30, 86, 124, 0.5);
+  opacity: 0; /*0 hides, 1 shows*/
+  pointer-events: none; /*makes no effect when hovering mouse*/
+}
+.modal_window:target{
+  opacity: 1;
+  pointer-events: all; /*makes it do what it should do enables all the links(auto)*/
+}
+.msgblock{
+  position: relative;
+  width: 60%;
+  background-color: orange;
+  margin: auto;
+  margin-top: 30%;
+}
+
+.msgblock img{
+  width: 30%;
+}
+
+.msgblock h1{
+
+}
+
+.msgblock p{
+
+}
+
+
+/*
+.button_2{
+
+}
+.click2{
+  background: blue;
+  color: white;
+  padding: 120px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.modal_window_2{
+  position: fixed;
+  top: 40px;
+  bottom: 40px;
+  right: 40px;
+  left: 40px;
+  background-color: blue;
+  opacity: 0;
+  pointer-events: none;
+}
+.modal_window2:target{
+  opacity: 1;
+  pointer-events: all;
+}
+.msgblock_2{
+  position: relative;
+  width: 60%;
+  background-color: orange;
+  margin: auto;
+  margin-bottom: 30%;
+}*/

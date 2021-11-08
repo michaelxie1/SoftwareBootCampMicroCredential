@@ -1,0 +1,93 @@
+
+.hill {
+  width: 100%;
+  height: 400px;
+  background-image: url('mountain.jpg');
+  background-repeat: no-repeat;
+}
+
+
+.hill img {
+
+  /* animation-name: move;
+   animation-duration: 10s;
+
+   animation-delay: 1s;
+*/
+   margin-left:0px; margin-top:250px;
+
+   transition: transform 10s;
+   transform: rotate(-90deg);
+
+
+}
+
+
+
+
+/*@keyframes  move{
+
+   0% {transform: translateX()}
+
+   100% {transform: rotate(180deg);}
+
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS Position--Absolute and Relative  */
+
+
+
+  .largebox{
+    border: 2px solid red;
+    width:80%;
+    height: 300px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .sub{
+    border: 2px solid red;
+    width:49.5%;
+    height: 300px;
+    float:left;
+  }
+
+
+
+
+.apple{
+  width:80%;
+  position: relative;
+}
+.apple img{
+  width:100%;
+}
+
+.text{
+position: absolute;
+top:10%;
+left:10%;
+background-color: rgba;
+width:;
+}
+
+.pic{
+  position: relative;
+  width:100%;
+  height:400px;
+  background-image:url("apple.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
